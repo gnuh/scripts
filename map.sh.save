@@ -1,0 +1,6 @@
+
+
+clear
+echo "Gnuh - Netwecho ifconfig | awk -F':' '/inet addr/&&!/127.0.0.1/{split($2,_," ");print _[1]}'
+#nmap -sP -T4 ${ip%?}1/24
+#nmap -sP -T4 $gateway/24

