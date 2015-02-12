@@ -23,7 +23,7 @@ echo -e "${green}Carregando...${NC}"
 #
 
 #SCANNEAR IPS DO GATEWAY
-#nmap -sP -T4 "$myIP"/24 > scan.txt
+nmap -sP -T4 "$myIP"/24 > scan.txt
 clear
 echo -e "${blue}Gnuh - Network Mapper ${red}($myIP)${NC}"
 

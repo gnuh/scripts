@@ -1,17 +1,29 @@
 
-Starting Nmap 6.47 ( http://nmap.org ) at 2015-02-04 23:06 BRST
-Nmap scan report for 192.168.25.1
-Host is up (0.099s latency).
-Nmap scan report for 192.168.25.2
-Host is up (0.099s latency).
-Nmap scan report for 192.168.25.3
-Host is up (0.11s latency).
-Nmap scan report for 192.168.25.11
-Host is up (0.064s latency).
-Nmap scan report for 192.168.25.20
-Host is up (0.049s latency).
-Nmap scan report for 192.168.25.21
-Host is up (0.27s latency).
-Nmap scan report for 192.168.25.27
-Host is up (0.00098s latency).
-Nmap done: 256 IP addresses (7 hosts up) scanned in 13.13 seconds
+Starting Nmap 6.47 ( http://nmap.org ) at 2015-02-06 17:57 BRST
+Nmap scan report for 192.168.0.1
+Host is up (0.010s latency).
+Nmap scan report for 192.168.0.4
+Host is up (0.070s latency).
+Nmap scan report for 192.168.0.5
+Host is up (0.070s latency).
+Nmap scan report for 192.168.0.6
+Host is up (0.066s latency).
+Nmap scan report for 192.168.0.8
+Host is up (0.058s latency).
+Nmap scan report for 192.168.0.9
+Host is up (0.094s latency).
+Nmap scan report for 192.168.0.12
+Host is up (0.12s latency).
+Nmap scan report for 192.168.0.15
+Host is up (0.079s latency).
+Nmap scan report for 192.168.0.17
+Host is up (0.061s latency).
+Nmap scan report for 192.168.0.18
+Host is up (0.069s latency).
+Nmap scan report for 192.168.0.19
+Host is up (0.075s latency).
+Nmap scan report for 192.168.0.20
+Host is up (0.00016s latency).
+Nmap scan report for 192.168.0.101
+Host is up (0.073s latency).
+Nmap done: 256 IP addresses (13 hosts up) scanned in 7.67 seconds
