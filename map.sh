@@ -27,5 +27,5 @@ nmap -sP -T4 "$myIP"/24 > scan.txt
 clear
 echo -e "${blue}Gnuh - Network Mapper ${red}($myIP)${NC}"
 
-tput setaf 3;cat scan.txt | grep "Nmap" | cut -d " " -f5,7;tput setaf default
+tput setaf 3;cat scan.txt | grep "Nmap" ;tput setaf default
 
