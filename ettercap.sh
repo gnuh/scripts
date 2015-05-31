@@ -11,7 +11,7 @@ NC='\e[00m'
 ./apagar_iptables.sh #limpar iptables
 ./rules.sh #configurar iptables
 
-echo -e  "${blue}Gnuh - Ettercap ${green}Posion${NC}"
+echo -e  "${blue}tByte - Ettercap ${green}Posion${NC}"
 echo 1 > /proc/sys/net/ipv4/ip_forward
 iwconfig 
 

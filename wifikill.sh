@@ -8,7 +8,7 @@ green='\e[0;32m'
 NC='\e[0m'
 #
 
-echo -e "${blue}Gnuh - WiFi ${red}Killer${NC}"
+echo -e "${blue}tByte - WiFi ${red}Killer${NC}"
 
 iwconfig
 

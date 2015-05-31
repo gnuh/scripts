@@ -18,7 +18,7 @@ IFS="."; declare -a Array=($*)
 myIP="${Array[0]}.${Array[1]}.${Array[2]}.1"
 #
 
-echo -e "${blue}Gnuh - ARP ${green}POISON${NC}"
+echo -e "${blue}tByte - ARP ${green}POISON${NC}"
 echo -e "${red}Carregando...${NC}"
 
 #SCANNEAR IPS DO GATEWAY
@@ -26,7 +26,7 @@ nmap -sP -T4 "$myIP"/24 > scan.txt
 
 clear
 
-echo -e "${blue}Gnuh - ARP ${green}POISON${NC}"
+echo -e "${blue}tByte - ARP ${green}POISON${NC}"
 echo 1 > "/proc/sys/net/ipv4/ip_forward"
 
 iwconfig

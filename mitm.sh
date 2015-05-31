@@ -7,7 +7,7 @@ green='\e[0;32m'
 NC='\e[00m'
 #
 
-echo -e "${blue}Gnuh - MAN IN THE MIDDLE ${red}(URLSNARF, DRIFTNET)${NC}"
+echo -e "${blue}tByte - MAN IN THE MIDDLE ${red}(URLSNARF, DRIFTNET)${NC}"
 iwconfig
 read -e -p "Digite a interface: " i
 gnome-terminal --zoom=.8 -x urlsnarf -i $i

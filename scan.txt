@@ -1,29 +1,17 @@
 
-Starting Nmap 6.47 ( http://nmap.org ) at 2015-02-06 17:57 BRST
-Nmap scan report for 192.168.0.1
-Host is up (0.010s latency).
-Nmap scan report for 192.168.0.4
-Host is up (0.070s latency).
-Nmap scan report for 192.168.0.5
-Host is up (0.070s latency).
-Nmap scan report for 192.168.0.6
-Host is up (0.066s latency).
-Nmap scan report for 192.168.0.8
-Host is up (0.058s latency).
-Nmap scan report for 192.168.0.9
-Host is up (0.094s latency).
-Nmap scan report for 192.168.0.12
-Host is up (0.12s latency).
-Nmap scan report for 192.168.0.15
-Host is up (0.079s latency).
-Nmap scan report for 192.168.0.17
-Host is up (0.061s latency).
-Nmap scan report for 192.168.0.18
-Host is up (0.069s latency).
-Nmap scan report for 192.168.0.19
-Host is up (0.075s latency).
-Nmap scan report for 192.168.0.20
-Host is up (0.00016s latency).
-Nmap scan report for 192.168.0.101
-Host is up (0.073s latency).
-Nmap done: 256 IP addresses (13 hosts up) scanned in 7.67 seconds
+Starting Nmap 6.47 ( http://nmap.org ) at 2015-05-31 03:46 BRT
+Nmap scan report for PowerBox.home (192.168.25.1)
+Host is up (0.0047s latency).
+MAC Address: 2C:E4:12:C7:34:65 (Sagemcom SAS)
+Nmap scan report for new-host-2.home (192.168.25.3)
+Host is up (0.0089s latency).
+MAC Address: 2C:E4:12:13:72:4A (Sagemcom SAS)
+Nmap scan report for android-49293a6546b8888c.home (192.168.25.21)
+Host is up (0.037s latency).
+MAC Address: 88:C9:D0:DE:5C:A1 (LG Electronics)
+Nmap scan report for new-host-10.home (192.168.25.53)
+Host is up (0.0039s latency).
+MAC Address: FC:AA:14:9B:01:6B (Giga-byte Technology Co.)
+Nmap scan report for 192.168.25.27
+Host is up.
+Nmap done: 256 IP addresses (5 hosts up) scanned in 2.29 seconds
