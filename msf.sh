@@ -1,0 +1,2 @@
+service postgresql start
+service metasploit start

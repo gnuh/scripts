@@ -10,5 +10,6 @@ NC='\e[00m'
 echo -e "${blue}tByte - MAN IN THE MIDDLE ${red}(URLSNARF, DRIFTNET)${NC}"
 iwconfig
 read -e -p "Digite a interface: " i
-gnome-terminal --zoom=.8 -x urlsnarf -i $i
+xdotool key ctrl+shift+t -x urlsnarf -i $i
+#gnome-terminal --zoom=.8 -x urlsnarf -i $i
 driftnet -i $i &
