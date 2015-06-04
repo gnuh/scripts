@@ -1,13 +1,15 @@
 
-Starting Nmap 6.47 ( http://nmap.org ) at 2015-06-02 18:39 BRT
+Starting Nmap 6.47 ( http://nmap.org ) at 2015-06-03 06:11 BRT
 Nmap scan report for PowerBox.home (192.168.25.1)
-Host is up (0.0031s latency).
+Host is up (0.0026s latency).
 Nmap scan report for new-host.home (192.168.25.2)
-Host is up (0.025s latency).
+Host is up (0.0062s latency).
 Nmap scan report for new-host-2.home (192.168.25.3)
-Host is up (0.030s latency).
+Host is up (0.013s latency).
+Nmap scan report for android-49293a6546b8888c.home (192.168.25.21)
+Host is up (0.016s latency).
 Nmap scan report for tbyte.home (192.168.25.27)
-Host is up (0.00090s latency).
+Host is up (0.000076s latency).
 Nmap scan report for gnuh.home (192.168.25.53)
-Host is up (0.093s latency).
-Nmap done: 256 IP addresses (5 hosts up) scanned in 2.59 seconds
+Host is up (0.010s latency).
+Nmap done: 256 IP addresses (6 hosts up) scanned in 3.08 seconds
